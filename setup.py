@@ -1,12 +1,6 @@
 #!/bin/env python3
-# code by : youtube.com/theunknon
 
-"""
 
-you can re run setup.py 
-if you have added some wrong value
-
-"""
 re="\033[1;31m"
 gr="\033[1;32m"
 cy="\033[1;36m"
@@ -86,10 +80,10 @@ def update_tool():
 		os.system('rm *.py');time.sleep(3)
 		print(gr+'['+cy+'+'+gr+']'+cy+' getting latest files ...')
 		os.system("""
-			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/add2group.py
-			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/scraper.py
-			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/setup.py
-			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/smsbot.py
+			curl -s -O https://github.com/mohamedelghazali/TeleGram-Scraper/blob/main/add2group.py
+			curl -s -O https://github.com/mohamedelghazali/TeleGram-Scraper/blob/main/scraper.py
+			curl -s -O https://github.com/mohamedelghazali/TeleGram-Scraper/blob/main/setup.py
+			curl -s -O https://github.com/mohamedelghazali/TeleGram-Scraper/blob/main/smsbot.py
 			chmod 777 *.py
 			""");time.sleep(3)
 		print(gr+'\n['+cy+'+'+gr+']'+cy+' update compled.\n')
